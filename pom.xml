@@ -17,30 +17,46 @@
 
     <!-- 子模块管理 -->
     <modules>
-        <!-- QuartJob 定时器 -->
-        <module>ware-quart-job</module>
-        <!-- RocketMq 消息中间件 -->
-        <module>ware-rocket-queue</module>
         <!-- ShardJdbc 分库分表-->
-        <module>ware-shard-jdbc</module>
+        <module>ware01-shard-jdbc</module>
         <!-- JavaMail邮件 发送 -->
-        <module>ware-email-send</module>
+        <module>ware02-email-send</module>
+        <!-- RocketMq 消息中间件 -->
+        <module>ware03-rocket-queue</module>
         <!-- Swagger2 接口界面 -->
-        <module>ware-swagger-two</module>
+        <module>ware04-swagger-two</module>
+        <!-- QuartJob 定时器 -->
+        <module>ware05-quart-job</module>
         <!-- RedisCluster 集群 -->
-        <module>ware-redis-cluster</module>
+        <module>ware06-redis-cluster</module>
         <!-- Dubbo 框架 -->
-        <module>ware-dubbo-parent</module>
+        <module>ware07-dubbo-parent</module>
         <!-- ElasticSearch 搜索框架 -->
-        <module>ware-elastic-search</module>
+        <module>ware08-elastic-search</module>
         <!-- JWT TOKEN 验证 -->
-        <module>ware-jwt-token</module>
+        <module>ware09-jwt-token</module>
         <!-- FastDFS文件管理 -->
-        <module>ware-fast-dfs</module>
+        <module>ware10-fast-dfs</module>
         <!-- Shiro 权限管理 -->
-        <module>ware-shiro-auth</module>
+        <module>ware11-shiro-auth</module>
         <!-- Security 权限管理 -->
-        <module>ware-security-auth</module>
+        <module>ware12-security-auth</module>
+        <!-- ClickHouse 数据库 -->
+        <module>ware13-click-house</module>
+        <!-- Drools 规则引擎 -->
+        <module>ware14-drool-rule</module>
+        <!-- MySQL多数据源配置 -->
+        <module>ware15-source-data</module>
+        <!-- MyBatisPlus增强框架 -->
+        <module>ware15-plus-batis</module>
+        <!-- Zookeeper协调框架 -->
+        <module>ware16-zoo-keeper</module>
+        <!-- Nacos 服务管理组件 -->
+        <module>ware17-regist-nacos</module>
+        <!-- 文件管理系统封装 -->
+        <module>ware18-file-parent</module>
+        <!-- Kafka 分布式消息组件 -->
+        <module>ware19-kafka-parent</module>
     </modules>
 
     <!-- 依赖版本管理 -->
